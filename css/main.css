@@ -1,0 +1,90 @@
+.Titulo{
+  font-weight: 300;
+  font-size: 1.0rem;
+  text-align: center;
+  color: Black;
+  opacity: 70%;
+}
+body {
+  overflow: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff000;
+  z-index: 9999;);
+}
+.logo {
+  display: block;
+  width: 70px;
+  height: 100px;
+  margin: 0 20px;
+}
+
+.logo img {
+  display: block;
+  width: 90%;
+  height: auto;
+}
+
+
+.Sub{
+  font-weight: 300;
+  font-size: 1.0rem;
+  text-align: center;
+  color: #0A3871;
+  opacity: 70%;
+}
+
+body {
+  background: #F3F5FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+.inputData{
+  display: line;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  column-gap: 35px;
+  padding: 80px 0 0 0;
+
+}
+
+.Buttons{
+  display: inline;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.rodape{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 20px;
+}
+}
+
+.icons{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 20px;
+}
+
+
+

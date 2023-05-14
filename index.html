@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+  <!-- font-awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <meta name="theme-color" content="#fafafa">
+  <title>Oracle ONE Challenge</title>
+</head>
+<body>
+<header>
+  <a href="#" class="logo"><img src="/img/Logo.png"></a>
+</header>
+
+<main class="Titulo">
+  <h1>Decodificador de textos</h1>
+  <p class="sub">Proteja seu texto criptografando e descriptografando qualquer texto dado com uma chave que ninguém conhece</p>
+  <div id="output">
+    <section class="inputData">
+      <textarea placeholder="Digite o texto que deseja..." name="input-text" id="input-text" cols="30" rows="10"></textarea>
+      <textarea placeholder="O resultado será exibido aqui" name="output-text" id="output-text" cols="30" rows="10"></textarea>
+    </section>
+  </div>
+
+  <div class="Buttons">
+    <button
+      id="encode-btn"
+      onclick="criptografar()"
+      class="btn-criptografar">
+      Criptografar
+      <i class="fa-solid fa-lock"></i>
+    </button>
+    <button
+      id="decode-btn"
+      onclick="descriptografar()"
+      class="btn-descriptografar">
+      Descriptografar
+      <i class="fa-solid fa-lock-open"></i>
+    </button>
+    <button
+      onclick="copiarTexto()"
+      class="copiarTexto">
+      Copiar
+      <i class="fa-solid fa-copy"></i>
+    </button>
+    <button
+      onclick="limpar()"
+      class="limpar">
+      Limpar
+      <i class="fa-solid fa-trash"></i>
+    </button>
+    <footer class="rodape">
+      <h2><i class="fa-solid fa-copyright"></i>Copyright and Development By Guilherme Santana.</h2>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/guilherme-feitosa-santana-733401190/"><ion-icon name="logo-linkedin" ><i class="fa-brands fa-linkedin"></i>
+        <a href="https://github.com/Devolvera1"><ion-icon name="logo-github"><i class="fa-brands fa-github"></i>
+        <a href="mailto:contato.guilhermefsantana@gmail.com"><ion-icon name="logo-e-mail"><i class="fa-solid fa-envelope"></i>
+        <a href="https://github.com/Devolvera1/OracleOneChallenge.git"><i class="fa-sharp fa-solid fa-square-share-nodes"></i>
+      </div>
+    </footer>
+  </div>
+</main>
+</body>
+</html>
+
+
