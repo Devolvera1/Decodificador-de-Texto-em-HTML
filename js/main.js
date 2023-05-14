@@ -23,28 +23,28 @@ function criptografar() {
 
     switch (letra) {
       case "a":
-        saida += "ai";
+        saida += "aiew";
         break;
       case "e":
-        saida += "enter";
+        saida += "eanter";
         break;
       case "i":
-        saida += "imes";
+        saida += "ewfses";
         break;
       case "o":
-        saida += "ober";
+        saida += "obfser";
         break;
       case "u":
-        saida += "ufat";
+        saida += "vsat";
         break;
       case "5":
         saida += "993";
         break;
-      case "7":
-        saida += "865";
+      case "s":
+        saida += "eqwe";
         break;
-      case "9":
-        saida += "653";
+      case "w":
+        saida += "dsada";
         break;
       default:
         saida += letra;
