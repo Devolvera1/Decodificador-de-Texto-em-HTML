@@ -1,21 +1,28 @@
-.Titulo{
+.Titulo {
   font-weight: 300;
   font-size: 1.0rem;
   text-align: center;
-  color: Black;
-  opacity: 70%;
+  color: black;
+  opacity: 0.7;
 }
+
 body {
   overflow: hidden;
+  background: #F3F5FC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 header {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #ffffff000;
-  z-index: 9999;);
+  background-color: #ffffff00;
+  z-index: 9999;
 }
+
 .logo {
   display: block;
   width: 70px;
@@ -29,52 +36,29 @@ header {
   height: auto;
 }
 
-
-.Sub{
+.Sub {
   font-weight: 300;
   font-size: 1.0rem;
   text-align: center;
   color: #0A3871;
-  opacity: 70%;
+  opacity: 0.7;
 }
 
-body {
-  background: #F3F5FC;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-
-
-.inputData{
-  display: line;
+.inputData {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr auto;
   column-gap: 35px;
   padding: 80px 0 0 0;
-
 }
 
-.Buttons{
+.Buttons {
   display: inline;
   border-radius: 50%;
   color: rgba(255, 255, 255, 0.4);
 }
 
-.rodape{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  padding: 20px;
-}
-}
-
-.icons{
+.rodape {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -86,5 +70,14 @@ body {
   padding: 20px;
 }
 
-
-
+.icons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 20px;
+}
