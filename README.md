@@ -25,7 +25,7 @@ Para utilizar o decodificador, siga os passos abaixo:
 1. Clone o repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/Devolvera1/OracleOneChallenge.git
+git clone https://github.com/Devolvera1/Decodificador-de-Texto-em-HTML
 ```
 
 2. Navegue até o diretório do projeto:
