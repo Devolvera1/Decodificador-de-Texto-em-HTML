@@ -56,7 +56,7 @@ Este desafio foi proposto pelo bootcamp Oracle One e o decodificador de texto de
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/Devolvera1/OracleOneChallenge/blob/main/LICENSE.txt) para mais detalhes.
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](https://github.com/Devolvera1/Decodificador-de-Texto-em-HTML/blob/main/LICENSE.txt) para mais detalhes.
 
 ## Contato
 
